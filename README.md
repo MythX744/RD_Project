@@ -24,16 +24,14 @@ This project focuses on analyzing hyperspectral images for semantic segmentation
 
 ```plaintext
 root/
-├── models/
-│   ├── deeplab.py           # DeepLab model implementation
-│   ├── deeplab_defcoef.py   # DeepLab with optimized coefficients
-│   ├── deeplab_mrmr.py      # DeepLab with MRMR feature selection
-│   ├── mlp.py               # MLP model implementation
-│   ├── mlp_defcoef.py       # MLP with optimized coefficients
-│   ├── mlp_mrmr.py          # MLP with MRMR feature selection
-│   ├── unet.py              # UNet model implementation
-│   ├── unet_defcoef.py      # UNet with optimized coefficients
-│   ├── unet_mrmr.py         # UNet with MRMR feature selection
+├── deeplab.py           # DeepLab model implementation
+├── deeplab_mrmr.py      # DeepLab with MRMR feature selection
+├── mlp.py               # MLP model implementation
+├── mlp_defcoef.py       # MLP with optimized coefficients
+├── mlp_mrmr.py          # MLP with MRMR feature selection
+├── unet.py              # UNet model implementation
+├── unet_defcoef.py      # UNet with optimized coefficients
+├── unet_mrmr.py         # UNet with MRMR feature selection
 ├── eda.py                   # Exploratory Data Analysis scripts
 ├── R_D_paper.pdf            # Related research paper
 ├── results/                 # Results of experiments (to be organized)

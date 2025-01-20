@@ -20,21 +20,25 @@ This repository contains implementations and results of various deep learning mo
 
 This project focuses on analyzing hyperspectral images for semantic segmentation using advanced deep learning techniques. It explores various model architectures with optimizations like feature selection and customized coefficients to enhance performance on hyperspectral data.
 
-## Repository Structure
-root/ ├── models/ │ 
-      ├── deeplab.py # DeepLab model implementation │ 
-      ├── deeplab_defcoef.py # DeepLab with optimized coefficients │ 
-      ├── deeplab_mrmr.py # DeepLab with MRMR feature selection │ 
-      ├── mlp.py # MLP model implementation │ 
-      ├── mlp_deff_coef.py # MLP with optimized coefficients │ 
-      ├── mlp_mrmr.py # MLP with MRMR feature selection │ 
-      ├── unet.py # UNet model implementation │ 
-      ├── unet_defcoef.py # UNet with optimized coefficients │ 
-      ├── unet_mrmr.py # UNet with MRMR feature selection 
-      ├── eda.py # Exploratory Data Analysis scripts 
-      ├── R_D_paper.pdf # Related research paper 
-      ├── results/ # Results of experiments (to be organized) 
-      └── README.md # Documentation (this file)
+## Directory Structure
+
+```plaintext
+root/
+├── models/
+│   ├── deeplab.py           # DeepLab model implementation
+│   ├── deeplab_defcoef.py   # DeepLab with optimized coefficients
+│   ├── deeplab_mrmr.py      # DeepLab with MRMR feature selection
+│   ├── mlp.py               # MLP model implementation
+│   ├── mlp_defcoef.py       # MLP with optimized coefficients
+│   ├── mlp_mrmr.py          # MLP with MRMR feature selection
+│   ├── unet.py              # UNet model implementation
+│   ├── unet_defcoef.py      # UNet with optimized coefficients
+│   ├── unet_mrmr.py         # UNet with MRMR feature selection
+├── eda.py                   # Exploratory Data Analysis scripts
+├── R_D_paper.pdf            # Related research paper
+├── results/                 # Results of experiments (to be organized)
+└── README.md                # Documentation (this file)
+```
 
 ## Installation
 
@@ -42,5 +46,9 @@ root/ ├── models/ │
    ```bash
    git clone https://github.com/your_username/your_repo_name.git
    cd your_repo_name
-
+      ```
+   
+2. Install the dependencies:
 pip install -r requirements.txt
+
+3. Ensure you have the required datasets in the specified format before running the scripts.

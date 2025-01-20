@@ -1,0 +1,4 @@
+Test Set Metrics:
+-----------------
+Test F1 Score: 0.1876
+Test Loss: 3.1147

@@ -1,4 +1,4 @@
-# Hyperspectral Image Analysis with Deep Learning Models
+# Semantic Segmentation On Hyperspectral Images
 
 This repository contains implementations and results of various deep learning models applied to hyperspectral image analysis, specifically for semantic segmentation tasks. The models include UNet, DeepLab, and Multi-Layer Perceptrons (MLPs) with different band selection techniques, such as Maximum Relevance - Minimize Redudndancy (mRMR) and Deflection Coefficient.
 

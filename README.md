@@ -57,3 +57,10 @@ To train a specific model, use the corresponding script:
 ```bash
 python <model_name>.py
 ```
+
+### Exploratory Data Analysis (EDA)
+To perform EDA on the dataset:
+```bash
+python eda.py --dataset <path_to_dataset>
+```
+

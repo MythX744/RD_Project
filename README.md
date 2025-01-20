@@ -9,10 +9,9 @@ This repository contains implementations and results of various deep learning mo
 2. [Repository Structure](#repository-structure)
 3. [Installation](#installation)
 4. [Usage](#usage)
-5. [Models Included](#models-included)
-6. [Results and Analysis](#results-and-analysis)
-7. [Acknowledgments](#acknowledgments)
-8. [License](#license)
+5. [Results and Analysis](#results-and-analysis)
+6. [Acknowledgments](#acknowledgments)
+7. [License](#license)
 
 ---
 

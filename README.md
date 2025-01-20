@@ -20,7 +20,7 @@ This repository contains implementations and results of various deep learning mo
 
 This project focuses on analyzing hyperspectral images for semantic segmentation using advanced deep learning techniques. It explores various model architectures with optimizations like feature selection and customized coefficients to enhance performance on hyperspectral data.
 
-## Directory Structure
+## Repository Structure
 
 ```plaintext
 root/
@@ -50,3 +50,10 @@ root/
 pip install -r requirements.txt
 
 3. Ensure you have the required datasets in the specified format before running the scripts.
+
+## Usage
+### Training a Model: 
+To train a specific model, use the corresponding script:
+```bash
+python <model_name>.py
+```

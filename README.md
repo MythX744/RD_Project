@@ -65,3 +65,23 @@ To perform EDA on the dataset:
 python eda.py --dataset <path_to_dataset>
 ```
 
+## Results and Analysis
+Performance metrics such as accuracy, F1 score, IoU, and other relevant metrics are stored in the /results directory.
+Detailed comparative analysis of the models is presented in the associated research paper (R_D_paper.pdf).
+
+## Acknowledgments
+Special thanks to the contributors and the research community for providing guidance and resources.
+
+## License
+This project is licensed. Feel free to use and adapt it for your own research.
+
+
+### Steps to Add the README to Your Repo
+1. Create a new file in the root directory of your repository named `README.md`.
+2. Paste the above content into the file.
+3. Commit and push the file to your repository:
+   ```bash
+   git add README.md
+   git commit -m "Added README"
+   git push
+```

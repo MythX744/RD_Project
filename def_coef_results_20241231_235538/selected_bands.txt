@@ -1,0 +1,2 @@
+Selected bands: [124, 125, 123, 122, 121, 109, 108, 110, 107, 120]
+Number of bands: 10
